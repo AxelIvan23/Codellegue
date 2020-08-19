@@ -1,0 +1,11 @@
+.bg-custom {
+	background-color: #1f58b5;
+}
+
+body {
+	height: 100vh;
+}
+
+.p-10 {
+padding-top: 8%;
+}

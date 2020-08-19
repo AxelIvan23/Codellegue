@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Facebook</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<!-- FONT AWESOME -->
+
+	<script src="https://kit.fontawesome.com/dcaedfb6eb.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="bg-light">
+	<section class="container">
+		<div class="row p-10">
+			<div class="col-6 pl-5">
+				<h1 class="text-primary">facebook</h1>
+				<h2>Inicios de sesión recientes</h2>
+				<p>Haz clic en tu foto o añade una cuenta</p>
+				<div class="d-flex justify-content-around">
+					<div class="card mr-3 w-100">
+						<img src="img/yo.jpg" class="card-img-top h-75" alt="perfil">
+						<div class="card-body pt-3">
+							<h5 class="card-title text-center">Axel</h5>
+						</div>
+					</div>
+					<div class="card mr-3 w-100">
+						<img src="img/yo.jpg" class="card-img-top h-75" alt="perfil">
+						<div class="card-body pt-3">
+							<h5 class="card-title text-center">Axel</h5>
+						</div>
+					</div>
+					<div class="card w-100">
+						<img src="img/añadir.jpg" class="card-img-top h-75" alt="perfil">
+						<div class="card-body pt-3">
+							<h6 class="card-title text-center text-primary">Añadir cuenta</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-5">
+				<div class="container d-flex">
+					<div class="card container">
+						<div class="card-body">
+							<div class="row mb-3">
+								<input type="text" name="" placeholder="Correo electrónico o número de teléfono" class="col-12 form-control input-lg py-4">
+							</div>
+							<div class="row mb-3">
+								<input type="password" name="" placeholder="Contraseña" class="col-12 form-control input-lg py-4">
+							</div>
+							<div class="row">
+								<button class="btn btn-primary col-12 mb-3"><h4>Entrar</h4></button>
+								<p class="text-center col-12 mb-0"><a href="#">¿Has olvidado los datos de la cuenta?</a></p>
+							</div>
+							
+							<hr>
+							<div class="row mb-2">
+								<div class="col-12 d-flex justify-content-md-center">
+									<button class="btn btn-success mt-2" data-toggle="modal" data-target="#exampleModal"><h5>Crear cuenta nueva</h5></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="d-flex justify-content-center mt-3">
+						<p class="text-center"><a href="" class="text-dark font-weight-bold">Crea una página</a> para un personaje público, un grupo de música o un negocio.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <div class="d-flex flex-column">
+	        	<h3 class="modal-title" id="exampleModalLabel">Registrarte</h3>
+	        <p class="modal-title d-block">Es rápido y fácil</p>
+	        </div>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	        
+	      </div>
+	      <div class="modal-body">
+	      	<div class="container">
+	      		 <div class="d-flex justify-content-around mb-2">
+		        	<input type="text" name="" placeholder="Nombre" class="col-6 mr-4 form-control pr-5">
+		        	<input type="" name="" placeholder="Apellidos" class="col-6 form-control pr-5">
+		        </div>
+		        <div class="row mb-2">
+		        	<input type="text" name="" placeholder="Número de móvil o correo electrónico" class="col-12 mr-3 form-control pr-5">
+		        </div>
+		        <div class="row  mb-2">
+		        	<input type="text" name="" placeholder="Contraseña nueva" class="col-12 mr-3 form-control pr-5">
+		        </div>
+		        <div class="row  mb-2">
+		        	<small class="text-muted">Fecha de nacimiento ?</small>
+		        </div>
+		        <div class="d-flex justify-content-around mb-3">
+		        	<input type="text" name="" placeholder="Nombre" class="col-6 mr-4 form-control pr-5">
+		        	<input type="" name="" placeholder="Apellidos" class="col-6 form-control pr-5">
+		        </div>
+		        <div class="row  mb-2">
+		        	<small class="text-muted">Sexo ?</small>
+		        </div>
+		        <div class="d-flex justify-content-around mb-3">
+		        	<input type="text" name="" placeholder="Nombre" class="col-6 mr-4 form-control pr-5">
+		        	<input type="" name="" placeholder="Apellidos" class="col-6 form-control pr-5">
+		        </div>
+		        <div class="row  mb-2">
+		        	<small class="text-muted">Al hacer clic en Registrarte, aceptas las Condiciones, la Política de datos y la Política de cookies. Es posible que te enviemos notificaciones por SMS que podrás desactivar cuando quieras.</small>
+		        </div>
+		        <div class="d-flex justify-content-around mb-2">
+		        	<button type="button" class="btn btn-success col-5" data-dismiss="modal"><h5>Registrarte</h5></button>
+		        </div>
+	      	</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!-- CODIGOS DE BOOTSTRAP -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
